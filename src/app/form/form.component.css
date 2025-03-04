@@ -1,0 +1,280 @@
+/* Formatação básica para a calculadora */
+form {
+    max-width: 350px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Estilo para os campos de input */
+  input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    box-sizing: border-box;
+    text-align: right; /* Alinha o texto à direita */
+  }
+  
+  /* Estilo para os botões */
+  button {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo para o botão de igual */
+  button.equal {
+    font-size: 24px; /* Tamanho maior da fonte */
+    padding: 20px; /* Aumenta o espaçamento interno */
+    background-color: #2ecc71; /* Cor verde para o igual */
+    width: 100%; /* Faz o botão de igual ocupar toda a largura */
+    grid-column: span 4; /* Ocupa toda a largura da grid */
+    border-radius: 10px; /* Arredonda os cantos */
+  }
+  
+  button.equal:hover {
+    background-color: #27ae60; /* Cor de fundo escura no hover */
+  }
+  
+  /* Hover para os outros botões */
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Estilo para o rótulo */
+  label {
+    display: block;
+    margin-top: 15px;
+    font-size: 18px;
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Adiciona uma grid para os botões */
+  .button-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas */
+    gap: 10px;
+  }
+  
+  /* Estilo para o botão de operação */
+  button.operator {
+    background-color: #f39c12;
+  }
+  
+  button.operator:hover {
+    background-color: #e67e22;
+  }
+  
+  /* Estilo para o botão de limpar */
+  button.clear {
+    background-color: #e74c3c;
+  }
+  
+  button.clear:hover {
+    background-color: #c0392b;
+  }
+/* Formatação básica para a calculadora */
+form {
+    max-width: 350px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Estilo para os campos de input */
+  input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    box-sizing: border-box;
+    text-align: right; /* Alinha o texto à direita */
+  }
+  
+  /* Estilo para os botões */
+  button {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo para o botão de igual */
+  button.equal {
+    font-size: 24px; /* Tamanho maior da fonte */
+    padding: 20px; /* Aumenta o espaçamento interno */
+    background-color: #2ecc71; /* Cor verde para o igual */
+    width: 100%; /* Faz o botão de igual ocupar toda a largura */
+    grid-column: span 4; /* Ocupa toda a largura da grid */
+    border-radius: 10px; /* Arredonda os cantos */
+  }
+  
+  button.equal:hover {
+    background-color: #27ae60; /* Cor de fundo escura no hover */
+  }
+  
+  /* Hover para os outros botões */
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Estilo para o rótulo */
+  label {
+    display: block;
+    margin-top: 15px;
+    font-size: 18px;
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Adiciona uma grid para os botões */
+  .button-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas */
+    gap: 10px;
+  }
+  
+  /* Estilo para o botão de operação */
+  button.operator {
+    background-color: #f39c12;
+  }
+  
+  button.operator:hover {
+    background-color: #e67e22;
+  }
+  
+  /* Estilo para o botão de limpar */
+  button.clear {
+    background-color: #e74c3c;
+  }
+  
+  button.clear:hover {
+    background-color: #c0392b;
+  }
+/* Formatação básica para a calculadora */
+form {
+    max-width: 350px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Estilo para os campos de input */
+  input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    box-sizing: border-box;
+    text-align: right; /* Alinha o texto à direita */
+  }
+  
+  /* Estilo para os botões */
+  button {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo para o botão de igual */
+  button.equal {
+    font-size: 24px; /* Tamanho maior da fonte */
+    padding: 20px; /* Aumenta o espaçamento interno */
+    background-color: #2ecc71; /* Cor verde para o igual */
+    width: 100%; /* Faz o botão de igual ocupar toda a largura */
+    grid-column: span 4; /* Ocupa toda a largura da grid */
+    border-radius: 10px; /* Arredonda os cantos */
+  }
+  
+  button.equal:hover {
+    background-color: #27ae60; /* Cor de fundo escura no hover */
+  }
+  
+  /* Hover para os outros botões */
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Estilo para o rótulo */
+  label {
+    display: block;
+    margin-top: 15px;
+    font-size: 18px;
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Adiciona uma grid para os botões */
+  .button-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas */
+    gap: 10px;
+  }
+  
+  /* Estilo para o botão de operação */
+  button.operator {
+    background-color: #f39c12;
+  }
+  
+  button.operator:hover {
+    background-color: #e67e22;
+  }
+  
+  /* Estilo para o botão de limpar */
+  button.clear {
+    background-color: #e74c3c;
+  }
+  
+  button.clear:hover {
+    background-color: #c0392b;
+  }
+      
